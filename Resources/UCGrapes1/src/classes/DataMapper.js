@@ -104,6 +104,7 @@ class DataMapper {
             return svg.components.find(comp=>comp.tagName == 'path')?.attributes?.id
           }
         }
+        
         return
     }
 
